@@ -1,0 +1,1 @@
+import numpy as npfrom latex_table import LatexTable, num2str#%%lt = LatexTable()lt.M = num2str(np.random.random((3, 3)), '%0.3e')lt.V = np.array(['v1', 'v2', 'v3'])lt.H = np.array(['h1', 'h2', 'h3'])lt.corner = 'cor'lt.file_name = 'tabular.tex'lt.tabular()del lt
