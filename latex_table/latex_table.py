@@ -1,4 +1,12 @@
+'''
+Simple tool to create latex tables to automatise the export of data to latex
+reports.
 
+Author : Lucas Gomes de Camargos Silveira
+date : 05.04.2020
+'''
+
+#%%
 import numpy as np
 
 #%%
@@ -97,6 +105,7 @@ class LatexTable(object):
             print('\\hline', file=f)
             print('\\hline', file=f)
     
+#%%
 
 @np.vectorize
 def num2str(num, fmt):
