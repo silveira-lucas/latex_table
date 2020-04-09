@@ -104,6 +104,7 @@ class LatexTable(object):
             # Double lines finishing the table
             print('\\hline', file=f)
             print('\\hline', file=f)
+            print('\\end{tabular}', file=f)
     
 #%%
 
