@@ -85,6 +85,7 @@ class LatexTable(object):
             print('\\hline', file=f)
             
             # Write the table header
+            print(self.corner + ' & ', end='', file=f)
             for i_c in range(n_col-1):
                 print(self.H[i_c] + ' & ', end='', file=f)
             else:
